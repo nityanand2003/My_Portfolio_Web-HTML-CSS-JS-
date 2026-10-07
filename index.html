@@ -4,63 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>N Kumar — Nityanand Kumar | Web & App Developer | Content Creator</title>
+
+    <title>Nityanand Kumar | Android App Developer | Java Developer</title>
+
     <meta name="description"
-        content="Nityanand Kumar | Professional Web Developer & App Developer | Content Creator | Creating powerful portfolio, business, and institutional websites with clean design and smart functionality.">
+        content="Nityanand Kumar — Android App Developer and Java Developer building practical mobile applications and software projects with Java, XML, Room, Firebase and modern development tools.">
+
     <meta name="keywords"
-        content="web developer, app developer, N Kumar, N Kumar, Nityanand, Nityanand Kumar, portfolio website, business website, web development, flutter development, Hybrid mobile app developer, app development, content creator">
+        content="Nityanand Kumar, N Kumar, Android App Developer, Java Developer, Android Developer Bihar, Software Developer, Java XML Android, CS Teacher Prep, Android Projects, Java Projects">
+
     <meta name="author" content="Nityanand Kumar">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="N Kumar — Nityanand Kumar | Professional Web & App Developer">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Nityanand Kumar | Android App Developer & Java Developer">
     <meta property="og:description"
-        content="Professional Web Developer & App Developer creating powerful websites and applications with clean design and smart functionality.">
+        content="Explore the real-world Android applications and software projects built by Nityanand Kumar.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://">
+    <meta property="og:image"
+        content="https://res.cloudinary.com/dmbr1jnez/image/upload/v1766595678/r0cweq0bkwaggs6kukcj.jpg">
+
+    <!-- Canonical -->
     <link rel="canonical" href="https://">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon"
         href="https://res.cloudinary.com/dmbr1jnez/image/upload/v1766595678/r0cweq0bkwaggs6kukcj.jpg">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;800&family=JetBrains+Mono:wght@300;400;600&family=Inter:wght@400;600;800&display=swap"
         rel="stylesheet">
 
-    <!-- Structured Data for SEO -->
+    <!-- Structured Data -->
     <script type="application/ld+json">
     {
-        "@context": "https://",
+        "@context": "https://schema.org",
         "@type": "Person",
         "name": "Nityanand Kumar",
         "alternateName": "N Kumar",
         "url": "https://",
         "image": "https://res.cloudinary.com/dmbr1jnez/image/upload/v1766595678/r0cweq0bkwaggs6kukcj.jpg",
-        "jobTitle": "Web & App Developer",
-        "description": "Professional Web Developer and App Developer creating powerful websites and applications.",
+        "jobTitle": "Android App Developer",
+        "description": "Android App Developer and Java Developer building practical mobile applications and software projects.",
         "address": {
             "@type": "PostalAddress",
             "addressRegion": "Bihar",
             "addressCountry": "India"
         },
         "sameAs": [
-            "https://www.instagram.com/03nkumar",
-            "https://youtube.com/@nkumarvideos",
-            "https://www.sololearn.com/profile/"
+            "https://www.linkedin.com/in/nkumar03",
+            "https://github.com/nityanand2003",
+            "https://www.instagram.com/nkumar.03/",
+            "https://www.youtube.com/@Nkumarshorts"
         ]
     }
     </script>
 
+    <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css">
-
-
 </head>
 
+
 <body>
-    <!-- Animated Background -->
+
+    <!-- =========================================================
+         ANIMATED BACKGROUND
+    ========================================================== -->
     <div class="bg-animation">
         <div class="particles"></div>
         <div class="grid-lines"></div>
+
         <div class="floating-shapes">
             <div class="shape"></div>
             <div class="shape"></div>
@@ -68,523 +87,1695 @@
         </div>
     </div>
 
-    <!-- Hamburger Menu -->
-    <div class="hamburger-menu" id="hamburgerMenu" aria-label="Toggle Navigation Menu">
+
+    <!-- =========================================================
+         HAMBURGER MENU
+    ========================================================== -->
+    <div class="hamburger-menu"
+        id="hamburgerMenu"
+        aria-label="Toggle Navigation Menu">
+
         <span></span>
         <span></span>
         <span></span>
+
     </div>
 
-    <!-- Resume Modal -->
+
+    <!-- =========================================================
+         RESUME MODAL
+    ========================================================== -->
     <div class="resume-modal" id="resumeModal">
+
         <div class="resume-content">
-            <div class="close-modal" id="closeModal" aria-label="Close Resume">
+
+            <div class="close-modal"
+                id="closeModal"
+                aria-label="Close Resume">
+
                 <i class="fas fa-times"></i>
+
             </div>
-            <img src="image/Nityanand_Resume.jpg" alt="Nityanand Kumar Resume" class="resume-img" loading="lazy">
+
+            <img
+                src="image/Nityanand_Resume.jpg"
+                alt="Nityanand Kumar Resume"
+                class="resume-img"
+                loading="lazy">
+
             <div class="resume-buttons">
-                <button class="resume-btn download" id="downloadResume" aria-label="Download Resume">
-                    <i class="fas fa-download"></i> DOWNLOAD RESUME
+
+                <button
+                    class="resume-btn download"
+                    id="downloadResume"
+                    aria-label="Download Resume">
+
+                    <i class="fas fa-download"></i>
+                    DOWNLOAD RESUME
+
                 </button>
-                <button class="resume-btn close" id="closeResumeModal" aria-label="Close Resume Modal">
-                    <i class="fas fa-times"></i> CLOSE
+
+                <button
+                    class="resume-btn close"
+                    id="closeResumeModal"
+                    aria-label="Close Resume Modal">
+
+                    <i class="fas fa-times"></i>
+                    CLOSE
+
                 </button>
+
             </div>
+
         </div>
+
     </div>
 
-    <!-- Scroll to Top -->
-    <button id="scrollTopBtn" aria-label="Scroll to top">
+
+    <!-- =========================================================
+         SCROLL TO TOP
+    ========================================================== -->
+    <button
+        id="scrollTopBtn"
+        aria-label="Scroll to top">
+
         <i class="fas fa-arrow-up"></i>
+
     </button>
 
-    <!-- HEADER -->
+
+    <!-- =========================================================
+         HEADER / HERO
+    ========================================================== -->
     <header class="header">
+
         <div class="profile-container">
-            <img class="profile-img"
+
+            <img
+                class="profile-img"
                 src="https://res.cloudinary.com/dmbr1jnez/image/upload/v1766595678/r0cweq0bkwaggs6kukcj.jpg"
-                alt="Nityanand Kumar" loading="lazy">
+                alt="Nityanand Kumar - Android App Developer"
+                loading="lazy">
+
             <div class="profile-ring"></div>
+
         </div>
-        <h1 class="glitch">NITYANAND KUMAR <i class="fa fa-desktop"></i></h1>
+
+
+        <h1 class="glitch">
+            NITYANAND KUMAR
+            <i class="fa fa-mobile-screen-button"></i>
+        </h1>
+
+
         <div class="tagline">
-            <b style="color: var(--primary);">WEB & APP DEVELOPER</b>
-            <div> Aspiring for a challenging career in Software Development where I can apply my skills to contribute to
-                organizational
-                goals and enhance my professional growth.
+
+            <b style="color: var(--primary);">
+                ANDROID APP DEVELOPER
+            </b>
+
+            <div style="margin-top: 8px;">
+                Java Developer &nbsp;•&nbsp;
+                Android Applications &nbsp;•&nbsp;
+                Software Development
             </div>
+
+            <div style="margin-top: 12px; font-size: 0.92rem; opacity: 0.85;">
+                I build practical software and mobile applications
+                that solve real-world problems.
+            </div>
+
+        </div>
+
     </header>
 
-    <!-- NAV -->
+
+    <!-- =========================================================
+         NAVIGATION
+    ========================================================== -->
     <div class="navwrap" id="navWrap">
+
         <nav class="nav" aria-label="Main Navigation">
-            <button class="nav-btn" data-target="#about" aria-label="About Section"><i class="fas fa-child"></i>
-                ABOUT</button>
-            <button class="nav-btn" data-target="#education" aria-label="Education Section"><i
-                    class="fas fa-graduation-cap"></i> EDUCATION</button>
-            <button class="nav-btn" data-target="#skills" aria-label="Skills Section"><i class="fas fa-lightbulb"></i>
-                SKILLS</button>
-            <button class="nav-btn" data-target="#portfolio" aria-label="Portfolio Section"><i
-                    class="fas fa-folder-open"></i> PROJECT</button>
-            <button class="nav-btn" data-target="#career" aria-label="Career Section"><i class="fas fa-briefcase"></i>
-                EXPERIENCE</button>
-            <button class="nav-btn" data-target="#certificates" aria-label="Certificates Section"><i
-                    class="fas fa-certificate"></i> CERTIFICATES</button>
-            <button class="nav-btn" data-target="#contact" aria-label="Contact Section"><i class="fas fa-envelope"></i>
-                CONTACT</button>
-            <button class="nav-btn resume-btn" id="navResumeBtn" aria-label="View My Resume">
-                <i class="fas fa-file-alt"></i> MY RESUME
+
+            <button
+                class="nav-btn"
+                data-target="#about"
+                aria-label="About Section">
+
+                <i class="fas fa-user"></i>
+                ABOUT
+
             </button>
+
+
+            <button
+                class="nav-btn"
+                data-target="#portfolio"
+                aria-label="Projects Section">
+
+                <i class="fas fa-code"></i>
+                PROJECTS
+
+            </button>
+
+
+            <button
+                class="nav-btn"
+                data-target="#skills"
+                aria-label="Skills Section">
+
+                <i class="fas fa-layer-group"></i>
+                SKILLS
+
+            </button>
+
+
+            <button
+                class="nav-btn"
+                data-target="#career"
+                aria-label="Experience Section">
+
+                <i class="fas fa-briefcase"></i>
+                EXPERIENCE
+
+            </button>
+
+
+            <button
+                class="nav-btn"
+                data-target="#education"
+                aria-label="Education Section">
+
+                <i class="fas fa-graduation-cap"></i>
+                EDUCATION
+
+            </button>
+
+
+            <button
+                class="nav-btn"
+                data-target="#certificates"
+                aria-label="Certificates Section">
+
+                <i class="fas fa-certificate"></i>
+                CERTIFICATES
+
+            </button>
+
+
+            <button
+                class="nav-btn"
+                data-target="#contact"
+                aria-label="Contact Section">
+
+                <i class="fas fa-envelope"></i>
+                CONTACT
+
+            </button>
+
+
+            <button
+                class="nav-btn resume-btn"
+                id="navResumeBtn"
+                aria-label="View My Resume">
+
+                <i class="fas fa-file-alt"></i>
+                MY RESUME
+
+            </button>
+
         </nav>
+
     </div>
 
-    <!-- Marquee -->
+
+    <!-- =========================================================
+         MARQUEE
+    ========================================================== -->
     <div class="marquee-container">
+
         <div class="marquee" aria-hidden="true">
-            <span class="marquee-text">Nityanand Kumar / N Kumar / Hybrid Mobile Application Development / Flutter
-                Development / Web & App Development.</span>
-            <span class="marquee-text">Content Creation / Business Solutions / Professional Portfolio.</span>
+
+            <span class="marquee-text">
+                NITYANAND KUMAR / ANDROID APP DEVELOPER /
+                JAVA DEVELOPER / SOFTWARE DEVELOPER /
+                REAL-WORLD APPLICATIONS /
+            </span>
+
+            <span class="marquee-text">
+                JAVA / XML / ANDROID STUDIO / ROOM /
+                FIREBASE / GITHUB / SOFTWARE DEVELOPMENT /
+            </span>
+
         </div>
+
     </div>
 
+
+    <!-- =========================================================
+         MAIN CONTENT
+    ========================================================== -->
     <main class="container">
-        <!-- Rest of your HTML content remains exactly the same -->
-        <!-- ABOUT -->
+
+
+        <!-- =====================================================
+             ABOUT
+        ====================================================== -->
         <section id="about" class="section">
-            <h2 class="h2"><i class="fas fa-child"></i> ABOUT ME</h2>
+
+            <h2 class="h2">
+                <i class="fas fa-user"></i>
+                ABOUT ME
+            </h2>
+
 
             <div class="card">
-                <p style="font-weight: bold;">
-                    1. <b style="color: var(--primary);">About</b> — Hi, I'm Nityanand Kumar from Nawada, Bihar. I am a
-                    Computer Science and Engineering student at Sershah Engineering College, Sasaram, which is
-                    affiliated with Bihar Engineering University, Patna and funded by Bihar government. I am passionate
-                    about learning new technologies, and utilise my skills and knowledge in real life. I consider myself
-                    hardworking, honest, and punctual, with good communication, teamwork, and leadership abilities.
-                </p>
 
                 <p style="font-weight: bold;">
-                    2. <b style="color: var(--primary);">Knowledge and Activities</b> — I possess good knowledge of C,
-                    C++, Java, and Python, and have also worked with frontend technologies like HTML, CSS, and
-                    JavaScript. Currently I am working on hybrid mobile applications development using Flutter & Dart.
-                    Apart from academics, I enjoy sketching, painting, singing, playing chess and volleyball, which help
-                    me stay creative and balanced.
+
+                    <b style="color: var(--primary);">
+                        Who I am
+                    </b>
+                    —
+
+                    I'm Nityanand Kumar, a Computer Science and
+                    Engineering graduate from Sershah Engineering
+                    College, Sasaram, Bihar.
+
+                    My primary focus is now on Android application
+                    development, Java and practical software
+                    development.
+
                 </p>
+
 
                 <p style="font-weight: bold;">
-                    3. <b style="color: var(--primary);">College Life</b> — I'm a Student Coordinator of Training and
-                    Placement Cell, SEC Sasaram and Class Representative of CSE branch.
+
+                    <b style="color: var(--primary);">
+                        What I do
+                    </b>
+                    —
+
+                    I enjoy converting real-world requirements into
+                    usable software applications.
+
+                    I work with Java, XML and Android Studio to build
+                    native Android applications, while also using
+                    technologies such as Room, Firebase, Git and
+                    GitHub when required by a project.
+
                 </p>
+
+
+                <p style="font-weight: bold;">
+
+                    <b style="color: var(--primary);">
+                        My approach
+                    </b>
+                    —
+
+                    I believe development is not only about learning
+                    programming languages.
+
+                    The real goal is to understand a problem,
+                    design a solution, build it, test it and make it
+                    useful for actual users.
+
+                </p>
+
+
+                <p style="font-weight: bold;">
+
+                    <b style="color: var(--primary);">
+                        Current Focus
+                    </b>
+                    —
+
+                    Android Application Development,
+                    Java Development, software projects and
+                    building applications that can be used in
+                    real-world scenarios.
+
+                </p>
+
             </div>
-        </section>
 
-        <!-- EDUCATION -->
-        <section id="education" class="section">
-            <h2 class="h2"><i class="fas fa-graduation-cap"></i> EDUCATIONAL QUALIFICATION</h2>
-            <div class="card">
-                <Table border="black">
-                    <caption><i class="fas fa-graduation-cap"></i> Educational Table </caption>
-                    <!-- class="edu" style="color: #00ff9d;" -->
-                    <thead>
-                        <tr>
-                            <th> Class </th>
-                            <th> College/School </th>
-                            <th> University/Board </th>
-                            <th> CGPA/Presentage </th>
-                            <th> Passing year </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td> B.Tech </td>
-                            <td> Sershah Engineering College Sasaram </td>
-                            <td> BEU Patna </td>
-                            <th> 7 cgpa </th>
-                            <th> 2026 </th>
-                        </tr>
-                        <tr>
-                            <td> 12th </td>
-                            <td> Inter School Nardiganj Nawada </td>
-                            <td> BSEB Patna </td>
-                            <th> 71.8% </th>
-                            <th> 2020 </th>
-                        </tr>
-                        <tr>
-                            <td> 10th </td>
-                            <td> Inter School Nardiganj Nawada </td>
-                            <td> BSEB Patna </td>
-                            <th> 63.4% </th>
-                            <th> 2018 </th>
-                        </tr>
-                    </tbody>
-                </Table>
-            </div>
-        </section>
-
-        <!-- SKILLS -->
-        <section id="skills" class="section">
-            <h2 class="h2"><i class="fas fa-lightbulb"></i> SKILLS</h2>
-
-            <div class="skills-grid">
-                <div class="skill">
-                    <h4><i class="fas fa-laptop-code"></i> C, C++, Java, Python.</h4>
-                    <div class="skill-bar">
-                        <div class="skill-fill" data-width="70%"></div>
-                    </div>
-                    <p>Continuously practicing the core programming and improving problem solving skill.</p>
-                </div>
-
-                <div class="skill">
-                    <h4><i class="fas fa-mobile-alt"></i> Flutter Development</h4>
-                    <div class="skill-bar">
-                        <div class="skill-fill" data-width="70%"></div>
-                    </div>
-                    <p>Learning new features and real-world problem solving, learning about different widgets.</p>
-                </div>
-
-                <div class="skill">
-                    <h4><i class="fab fa-html5"></i> HTML & CSS — 85%</h4>
-                    <div class="skill-bar">
-                        <div class="skill-fill" data-width="85%"></div>
-                    </div>
-                    <p>Still learning and improving — exploring advanced layouts & modern UI techniques.</p>
-                </div>
-
-                <div class="skill">
-                    <h4><i class="fab fa-js"></i> JavaScript & jQuery — 70%</h4>
-                    <div class="skill-bar">
-                        <div class="skill-fill" data-width="70%"></div>
-                    </div>
-                    <p>Continuously practicing — learning new features and real-world problem solving.</p>
-                </div>
-
-                <div class="skill">
-                    <h4><i class="fab fa-php"></i> PHP & MySQL — 80%</h4>
-                    <div class="skill-bar">
-                        <div class="skill-fill" data-width="80%"></div>
-                    </div>
-                    <p>Still learning better backend structure & database optimization techniques.</p>
-                </div>
-
-                <div class="skill">
-                    <h4><i class="fas fa-code"></i> Web Apps & Deployment — 80%</h4>
-                    <div class="skill-bar">
-                        <div class="skill-fill" data-width="80%"></div>
-                    </div>
-                    <p>Improving deployment, security & full-stack workflow step by step.</p>
-                </div>
-            </div>
         </section>
 
 
-        <!-- PROJECT -->
+
+        <!-- =====================================================
+             PROJECTS
+        ====================================================== -->
         <section id="portfolio" class="section">
-            <h2 class="h2"><i class="fas fa-folder-open"></i> MY PROJECTS</h2>
 
-            <p style="font-weight: bold; margin-bottom: 2rem; color: rgba(255, 255, 255, 0.9); font-size: 1rem;">
-                These are some of the real projects I have developed and deployed. I focus on building professional
-                websites and applications with clean design, modern UI, and smooth functionality.
-            </p>
+            <h2 class="h2">
+                <i class="fas fa-code"></i>
+                REAL-WORLD PROJECTS
+            </h2>
+
+
+            <div class="card">
+
+                <p style="font-weight: bold;">
+
+                    <b style="color: var(--primary);">
+                        I don't just learn technologies — I build
+                        applications.
+                    </b>
+
+                    <br><br>
+
+                    This section showcases projects that demonstrate
+                    how I use programming, UI development, databases
+                    and software engineering concepts to build
+                    practical applications.
+
+                </p>
+
+            </div>
+
 
             <div class="projects">
-                <div class="project" onclick="window.open('https://github.com/nityanand2003/Flutter-My-Portfolio', '_blank')">
-                    <h5><i class="fas fa-mobile-alt"></i> <b>Portfolio Application</b></h5>
+
+
+                <!-- =================================================
+                     PROJECT 1 — CS TEACHER PREP
+                ================================================== -->
+                <div class="project">
+
+                    <h5>
+
+                        <i class="fas fa-mobile-screen-button"></i>
+
+                        CS Teacher Prep
+
+                    </h5>
+
+
                     <p>
-                        Developed a personal portfolio mobile application using Flutter and Dart to showcase my education, skills, and projects. Implemented smooth navigation, modern UI design, and integrated a download resume feature.<br><br>
-                        GitHub Link <i class="fa-solid fa-arrow-right"
-                            style="color: var(--primary); margin: 0 5px;"></i><br>
-                        <a href="https://github.com/nityanand2003/Flutter-My-Portfolio" target="_blank"
-                            class="project-link">https://github.com/nityanand2003/Flutter-My-Portfolio</a>
+
+                        A native Android application designed for
+                        Computer Science exam preparation.
+
+                        The application provides topic-wise practice,
+                        previous-year questions, practice sets,
+                        self-designed question sets and educational
+                        YouTube playlists.
+
                     </p>
+
+
+                    <p style="color: var(--primary); font-weight: bold;">
+
+                        Android Application
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>Technology:</strong>
+
+                        Java • XML • Android Studio • Room Database
+                        • JSON • Git • GitHub
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>Highlights:</strong>
+
+                        Local question database, practice sets,
+                        PYQ system, self-designed sets, playlist
+                        integration and user-focused Android UI.
+
+                    </p>
+
+
+                    <div style="margin-top: 1rem;">
+
+                        <a
+                            href="https://github.com/nityanand2003/CS-Teacher-Prep"
+                            target="_blank"
+                            class="project-link"
+                            aria-label="View CS Teacher Prep on GitHub">
+
+                            <i class="fab fa-github"></i>
+                            VIEW ON GITHUB
+
+                        </a>
+
+                    </div>
+
                 </div>
 
-                <div class="project" onclick="window.open('https://', '_blank')">
-                    <h5><i class="fas fa-globe"></i> <b>Other</b></h5>
-                    <p>Developed an expense tracker app to record daily transactions, categorize spending, and visualize monthly expenses throughinteractive charts. Implemented local data storage and filtering for better expense insights.<br><br>
-                        REGISTER LINK <i class="fa-solid fa-arrow-right"
-                            style="color: var(--primary); margin: 0 5px;"></i><br>
-                        <a href="https:///" target="_blank"
-                            class="project-link">https:///</a><br><br>
-                        MY FIRST PORTFOLIO, WHEN I WAS BEGINNER <i class="fa-solid fa-arrow-right"
-                            style="color: var(--primary); margin: 0 5px;"></i><br>
-                        <a href="https://" target="_blank"
-                            class="project-link">https://</a>
+
+
+                <!-- =================================================
+                     PROJECT 2 — WORKER HUB PRO
+                ================================================== -->
+                <div class="project">
+
+                    <h5>
+
+                        <i class="fas fa-users"></i>
+
+                        Worker Hub Pro
+
+                    </h5>
+
+
+                    <p>
+
+                        A home-services marketplace application
+                        concept designed to connect customers with
+                        service providers.
+
+                        The project explores user roles, service
+                        requests, worker approval, ratings,
+                        notifications and wallet-based functionality.
+
                     </p>
+
+
+                    <p style="color: var(--primary); font-weight: bold;">
+
+                        Mobile Application
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>Technology:</strong>
+
+                        Flutter • Firebase • Cloudinary
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>Highlights:</strong>
+
+                        Customer/worker roles, authentication,
+                        service workflow, worker approval,
+                        ratings, notifications and wallet concepts.
+
+                    </p>
+
+
+                    <div style="margin-top: 1rem;">
+
+                        <span
+                            class="project-link"
+                            style="cursor: default;">
+
+                            <i class="fas fa-flask"></i>
+                            PREVIOUS PROJECT
+
+                        </span>
+
+                    </div>
+
                 </div>
+
+
+
+                <!-- =================================================
+                     PROJECT 3 — PORTFOLIO
+                ================================================== -->
+                <div class="project">
+
+                    <h5>
+
+                        <i class="fas fa-globe"></i>
+
+                        Personal Portfolio
+
+                    </h5>
+
+
+                    <p>
+
+                        A custom portfolio website developed to
+                        showcase my software projects, technical
+                        skills, professional experience and
+                        certifications.
+
+                        The website uses a responsive futuristic
+                        interface with animated visual elements.
+
+                    </p>
+
+
+                    <p style="color: var(--primary); font-weight: bold;">
+
+                        Web Project
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>Technology:</strong>
+
+                        HTML • CSS • JavaScript • Font Awesome
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>Highlights:</strong>
+
+                        Responsive layout, project showcase,
+                        resume viewer, navigation system,
+                        animated background and contact section.
+
+                    </p>
+
+
+                    <div style="margin-top: 1rem;">
+
+                        <a
+                            href="https://github.com/nityanand2003/Flutter-My-Portfolio"
+                            target="_blank"
+                            class="project-link"
+                            aria-label="View portfolio project on GitHub">
+
+                            <i class="fab fa-github"></i>
+                            VIEW ON GITHUB
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     PROJECT 4 — FUTURE PROJECT
+                ================================================== -->
+                <div class="project">
+
+                    <h5>
+
+                        <i class="fas fa-code-branch"></i>
+
+                        More Projects
+
+                    </h5>
+
+
+                    <p>
+
+                        I am continuously working on new software
+                        and Android application ideas.
+
+                        Future projects will be added here with
+                        their screenshots, features, technology
+                        stack and source/demo links.
+
+                    </p>
+
+
+                    <p style="color: var(--primary); font-weight: bold;">
+
+                        Building • Learning • Improving
+
+                    </p>
+
+
+                    <p>
+
+                        The objective is to keep this portfolio
+                        focused on practical applications rather
+                        than simply listing technologies.
+
+                    </p>
+
+
+                    <div style="margin-top: 1rem;">
+
+                        <a
+                            href="https://github.com/nityanand2003"
+                            target="_blank"
+                            class="project-link"
+                            aria-label="View all projects on GitHub">
+
+                            <i class="fab fa-github"></i>
+                            VIEW GITHUB PROFILE
+
+                        </a>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <p
-                style="margin-top: 2rem; color: var(--primary); font-weight: bold; text-align: center; font-size: 1rem; padding: 0.8rem; background: rgba(0, 255, 157, 0.1); border-radius: 8px; border: 1px solid rgba(0, 255, 157, 0.2);">
-                In addition to these, I have built many more websites and applications.
-                I will provide live links and additional project details soon.
-                All projects listed above are fully deployed and professionally completed.
-            </p>
         </section>
 
-        <!-- EXPERIENCE -->
+
+
+        <!-- =====================================================
+             TECHNICAL SKILLS
+        ====================================================== -->
+        <section id="skills" class="section">
+        
+            <h2 class="h2">
+                <i class="fas fa-layer-group"></i>
+                TECHNICAL SKILLS
+            </h2>
+        
+        
+            <div class="skills-intro card">
+            
+                <p>
+                
+                    My current development focus is
+                    <strong style="color: var(--primary);">
+                        Android application development
+                    </strong>
+                    and
+                    <strong style="color: var(--secondary);">
+                        Java-based software development.
+                    </strong>
+                
+                    I also use supporting technologies for
+                    database management, version control and
+                    application integration.
+                
+                </p>
+            
+            </div>
+        
+        
+            <div class="skills-grid">
+            
+            
+                <!-- Android -->
+                <div class="skill">
+                
+                    <div class="skill-icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                
+                    <h4>
+                        Android Development
+                    </h4>
+                
+                    <p>
+                        Native Android application development
+                        using Android Studio, Java and XML.
+                    </p>
+                
+                    <div class="skill-tags">
+                    
+                        <span>Android Studio</span>
+                        <span>Java</span>
+                        <span>XML</span>
+                        <span>Material UI</span>
+                    
+                    </div>
+                
+                </div>
+            
+            
+                <!-- Java -->
+                <div class="skill">
+                
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                
+                    <h4>
+                        Java Development
+                    </h4>
+                
+                    <p>
+                        Application logic, OOP, data handling,
+                        event handling and Android integration.
+                    </p>
+                
+                    <div class="skill-tags">
+                    
+                        <span>Core Java</span>
+                        <span>OOP</span>
+                        <span>Collections</span>
+                        <span>Exception Handling</span>
+                    
+                    </div>
+                
+                </div>
+            
+            
+                <!-- UI -->
+                <div class="skill">
+                
+                    <div class="skill-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                
+                    <h4>
+                        UI & XML
+                    </h4>
+                
+                    <p>
+                        Clean and responsive Android interfaces
+                        designed using XML and Material components.
+                    </p>
+                
+                    <div class="skill-tags">
+                    
+                        <span>XML Layouts</span>
+                        <span>Material Design</span>
+                        <span>Responsive UI</span>
+                        <span>UI Components</span>
+                    
+                    </div>
+                
+                </div>
+            
+            
+                <!-- Database -->
+                <div class="skill">
+                
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                
+                    <h4>
+                        Data & Storage
+                    </h4>
+                
+                    <p>
+                        Local data storage and structured data
+                        handling for Android applications.
+                    </p>
+                
+                    <div class="skill-tags">
+                    
+                        <span>Room</span>
+                        <span>SQLite</span>
+                        <span>JSON</span>
+                        <span>Local Storage</span>
+                    
+                    </div>
+                
+                </div>
+            
+            
+                <!-- Firebase -->
+                <div class="skill">
+                
+                    <div class="skill-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                
+                    <h4>
+                        Firebase & Integration
+                    </h4>
+                
+                    <p>
+                        Application services, backend integration
+                        and external service connectivity.
+                    </p>
+                
+                    <div class="skill-tags">
+                    
+                        <span>Firebase</span>
+                        <span>Authentication</span>
+                        <span>Cloud Services</span>
+                        <span>APIs</span>
+                    
+                    </div>
+                
+                </div>
+            
+            
+                <!-- Tools -->
+                <div class="skill">
+                
+                    <div class="skill-icon">
+                        <i class="fas fa-screwdriver-wrench"></i>
+                    </div>
+                
+                    <h4>
+                        Tools & Workflow
+                    </h4>
+                
+                    <p>
+                        Development tools and version control used
+                        for building and maintaining projects.
+                    </p>
+                
+                    <div class="skill-tags">
+                    
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>Android Studio</span>
+                        <span>VS Code</span>
+                    
+                    </div>
+                
+                </div>
+            
+            
+                <!-- Programming -->
+                <div class="skill">
+                
+                    <div class="skill-icon">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                
+                    <h4>
+                        Programming Fundamentals
+                    </h4>
+                
+                    <p>
+                        Strong foundation in programming concepts,
+                        problem solving and computer science fundamentals.
+                    </p>
+                
+                    <div class="skill-tags">
+                    
+                        <span>C</span>
+                        <span>C++</span>
+                        <span>Java</span>
+                        <span>Python</span>
+                    
+                    </div>
+                
+                </div>
+            
+            
+                <!-- Web -->
+                <div class="skill">
+                
+                    <div class="skill-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                
+                    <h4>
+                        Web Basics
+                    </h4>
+                
+                    <p>
+                        Basic web technologies used for websites,
+                        portfolio development and web interfaces.
+                    </p>
+                
+                    <div class="skill-tags">
+                    
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    
+                    </div>
+                
+                </div>
+            
+            </div>
+        
+        </section>
+
+        <!-- =====================================================
+             EXPERIENCE
+        ====================================================== -->
         <section id="career" class="section">
-            <h2 class="h2"><i class="fas fa-briefcase"></i> EXPERIENCE</h2>
-            <div class="card">
-                <h3><i class="fas fa-briefcase"></i> Engineering Intern |East Central Railway (Hajipur) | Workplace -
-                    Patna Junction.</h3>
-                <div style="position: relative; padding-left: 20px; margin-top: 1.5rem;">
-                    <div
-                        style="position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: linear-gradient(180deg, var(--primary), var(--secondary)); border-radius: 2px;">
-                    </div>
-                    <div style="margin-left: 25px;">
-                        <p style="color: var(--secondary); margin-bottom: 1rem; font-size: 0.95rem;">(01 June 2025 - 30
-                            June 2025)</p>
-                        <p>
-                            <b style="color: var(--primary);">Signaling: </b>Track Circuit, Point Machine, Axle Counter,
-                            Absolute & AutomaƟc Block working, Geƫng Line clear for approaching train, Different aspects
-                            of signals and the condiƟons of their working.
-                            <br>
-                            <b style="color: var(--primary);">Telecom: </b>Working of OFC system, Quad cable
-                            communicaƟon system, Control communicaƟon system, IP Exchange system, Railway Networking
-                            system (Railnet/UTS/FOIS, etc), MTRC system, working of IT applicaƟons like e-Office HRMS,
-                            etc
 
-                        </p>
-                        <p style="font-weight: bold;">
-                            During this internship, I gained practical insights into railway signalling systems,
-                            telecommunication technologies, and the safety measures essential for efficient railway
-                            operations.
-                        </p>
-                    </div>
+            <h2 class="h2">
+                <i class="fas fa-briefcase"></i>
+                EXPERIENCE
+            </h2>
+
+
+            <div class="projects">
+
+
+                <!-- GEC NAWADA -->
+                <div class="project">
+
+                    <h5>
+
+                        <i class="fas fa-building"></i>
+
+                        GEC Nawada — NATS Apprentice Trainee
+
+                    </h5>
+
+
+                    <p style="color: var(--primary); font-weight: bold;">
+
+                        Government Engineering College, Nawada
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>Role:</strong>
+                        NATS Graduate Apprentice / Apprentice Trainee
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>Started:</strong>
+                        22 August 2026
+
+                    </p>
+
+
+                    <p>
+
+                        Working in an academic laboratory environment
+                        and supporting practical computer programming
+                        sessions.
+
+                        The role includes assisting students during
+                        programming laboratory activities and
+                        supporting practical learning.
+
+                    </p>
+
                 </div>
+
+
+
+                <!-- ECR -->
+                <div class="project">
+
+                    <h5>
+
+                        <i class="fas fa-train"></i>
+
+                        Engineering Internship
+
+                    </h5>
+
+
+                    <p style="color: var(--primary); font-weight: bold;">
+
+                        East Central Railway, Danapur Division
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>Duration:</strong>
+                        01 June 2025 – 30 June 2025
+
+                    </p>
+
+
+                    <p>
+
+                        Completed a one-month engineering internship
+                        at East Central Railway, gaining exposure to
+                        a professional engineering work environment.
+
+                    </p>
+
+                </div>
+
             </div>
+
         </section>
-        <!-- CERTIFICATES -->
+
+        <!-- =====================================================
+             EDUCATION
+        ====================================================== -->
+        <section id="education" class="section">
+        
+            <h2 class="h2">
+                <i class="fas fa-graduation-cap"></i>
+                EDUCATION
+            </h2>
+        
+            <div class="education-grid">
+            
+                <!-- B.Tech -->
+                <div class="education-card">
+                
+                    <div class="education-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                
+                    <div class="education-content">
+                    
+                        <span class="education-year">
+                            2022 – 2026
+                        </span>
+                    
+                        <h3>
+                            B.Tech in Computer Science & Engineering
+                        </h3>
+                    
+                        <h4>
+                            Sershah Engineering College, Sasaram
+                        </h4>
+                    
+                        <p>
+                            Affiliated to Bihar Engineering University,
+                            Patna.
+                        </p>
+                    
+                        <div class="education-result">
+                            <i class="fas fa-chart-line"></i>
+                            <span>7.5 CGPA</span>
+                        </div>
+                    
+                    </div>
+                
+                </div>
+            
+            
+                <!-- Class XII -->
+                <div class="education-card">
+                
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                
+                    <div class="education-content">
+                    
+                        <span class="education-year">
+                            2020
+                        </span>
+                    
+                        <h3>
+                            Class XII
+                        </h3>
+                    
+                        <h4>
+                            Inter School Nardiganj, Nawada
+                        </h4>
+                    
+                        <p>
+                            Bihar School Examination Board,
+                            Patna (BSEB).
+                        </p>
+                    
+                        <div class="education-result">
+                            <i class="fas fa-chart-line"></i>
+                            <span>71.8%</span>
+                        </div>
+                    
+                    </div>
+                
+                </div>
+            
+            
+                <!-- Class X -->
+                <div class="education-card">
+                
+                    <div class="education-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                
+                    <div class="education-content">
+                    
+                        <span class="education-year">
+                            2018
+                        </span>
+                    
+                        <h3>
+                            Class X
+                        </h3>
+                    
+                        <h4>
+                            Inter School Nardiganj, Nawada
+                        </h4>
+                    
+                        <p>
+                            Bihar School Examination Board,
+                            Patna (BSEB).
+                        </p>
+                    
+                        <div class="education-result">
+                            <i class="fas fa-chart-line"></i>
+                            <span>63.4%</span>
+                        </div>
+                    
+                    </div>
+                
+                </div>
+            
+            </div>
+        
+        </section>
+
+
+
+        <!-- =====================================================
+             CERTIFICATES
+        ====================================================== -->
         <section id="certificates" class="section">
-            <h2 class="h2"><i class="fas fa-certificate"></i> MY CERTIFICATES</h2>
+
+            <h2 class="h2">
+
+                <i class="fas fa-certificate"></i>
+
+                CERTIFICATES & ACHIEVEMENTS
+
+            </h2>
+
 
             <div class="certificates-grid">
+
+
+                <!-- NPTEL -->
                 <div class="certificate-item">
+
                     <div class="certificate-image-container">
-                        <img src="image/Cyber_Security_Internship.jpg" alt="Cyber Security Internship Certificate"
+
+                        <img
+                            src="image/NPTEL_Introduction_to_Internet_of_Things.jpg"
+                            alt="NPTEL Introduction to Internet of Things Certificate"
                             loading="lazy">
+
                     </div>
+
+
                     <div class="certificate-content">
-                        <p>Successfully completed 1 Month Cyber Security Internship.</p>
-                        <button class="verify-btn"
-                            onclick="window.open('https://', '_blank')"
-                            aria-label="Verify Web Development Certificate">
-                            <i class="fas fa-external-link-alt"></i> VERIFY CERTIFICATE
-                        </button>
+
+                        <p>
+                            Successfully completed
+                            Introduction to Internet of Things
+                            through NPTEL.
+                        </p>
+
                     </div>
+
                 </div>
 
+
+
+                <!-- Soft Skills -->
                 <div class="certificate-item">
+
                     <div class="certificate-image-container">
-                        <img src="image/Python_Programming_Internship.jpg" alt="Python Programming Internship Certificate" loading="lazy">
+
+                        <img
+                            src="image/NPTEL_Soft_Skill_Development.jpg"
+                            alt="NPTEL Soft Skill Development Certificate"
+                            loading="lazy">
+
                     </div>
+
+
                     <div class="certificate-content">
-                        <p>Successfully completed 1 Month Python Programming Internship.</p>
-                        <button class="verify-btn"
-                            onclick="window.open('https://', '_blank')"
-                            aria-label="Verify HTML Certificate">
-                            <i class="fas fa-external-link-alt"></i> VERIFY CERTIFICATE
-                        </button>
+
+                        <p>
+                            Successfully completed
+                            Soft Skill Development through NPTEL.
+                        </p>
+
                     </div>
+
                 </div>
 
+
+
+                <!-- Cybersecurity -->
                 <div class="certificate-item">
+
                     <div class="certificate-image-container">
-                        <img src="image/NPTEL_Introduction_to_Internet_of_Things.jpg" alt="Introduction to Internet of Things Certificate" loading="lazy">
+
+                        <img
+                            src="image/CISCO_Introduction_to_Cybersecurity.jpg"
+                            alt="CISCO Introduction to Cybersecurity Certificate"
+                            loading="lazy">
+
                     </div>
+
+
                     <div class="certificate-content">
-                        <p>Successfully completed 12 Weeks Introduction to Internet of Things.</p>
-                        <button class="verify-btn"
-                            onclick="window.open('https://', '_blank')"
-                            aria-label="Verify CSS Certificate">
-                            <i class="fas fa-external-link-alt"></i> VERIFY CERTIFICATE
-                        </button>
+
+                        <p>
+                            Introduction to Cybersecurity
+                            certification by CISCO.
+                        </p>
+
                     </div>
+
                 </div>
 
+
+
+                <!-- HTML -->
                 <div class="certificate-item">
+
                     <div class="certificate-image-container">
-                        <img src="image/NPTEL_Soft_Skill_Development.jpg" alt="Soft Skill Development Certificate" loading="lazy">
+
+                        <img
+                            src="image/HTML_Certificate.jpg"
+                            alt="HTML Certificate"
+                            loading="lazy">
+
                     </div>
+
+
                     <div class="certificate-content">
-                        <p>Successfully completed 8 Weeks Soft Skill Developmen.</p>
-                        <button class="verify-btn"
-                            onclick="window.open('https://', '_blank')"
-                            aria-label="Verify JavaScript Certificate">
-                            <i class="fas fa-external-link-alt"></i> VERIFY CERTIFICATE
-                        </button>
+
+                        <p>
+                            HTML / Web Development certification.
+                        </p>
+
                     </div>
+
                 </div>
 
+
+
+                <!-- ECR -->
                 <div class="certificate-item">
+
                     <div class="certificate-image-container">
-                        <img src="image/ECR_Danapur_Internship.jpg" alt="ECR Danapur Internship Certificate" loading="lazy">
+
+                        <img
+                            src="image/ECR_Danapur_Internship.jpg"
+                            alt="East Central Railway Internship Certificate"
+                            loading="lazy">
+
                     </div>
+
+
                     <div class="certificate-content">
-                        <p>Successfully completed 1 Month Engineering Internship at ECR Danapur.</p>
+
+                        <p>
+                            Successfully completed one-month
+                            Engineering Internship at ECR Danapur.
+                        </p>
+
                     </div>
+
                 </div>
 
+
+
+                <!-- Computer Training -->
                 <div class="certificate-item">
+
                     <div class="certificate-image-container">
-                        <img src="image/Computer training_Certificate.jpg" alt="Computer training Certificate" loading="lazy">
+
+                        <img
+                            src="image/Computer training_Certificate.jpg"
+                            alt="Computer Training Certificate"
+                            loading="lazy">
+
                     </div>
+
+
                     <div class="certificate-content">
-                        <p>Professional training completion.</p>
+
+                        <p>
+                            Professional Computer Training
+                            completion certificate.
+                        </p>
+
                     </div>
+
                 </div>
 
+
+
+                <!-- Synfig -->
                 <div class="certificate-item">
+
                     <div class="certificate-image-container">
-                        <img src="image/Synfig Training_Certificate.jpg" alt="Synfig Training Certificate" loading="lazy">
+
+                        <img
+                            src="image/Synfig Training_Certificate.jpg"
+                            alt="Synfig Training Certificate"
+                            loading="lazy">
+
                     </div>
+
+
                     <div class="certificate-content">
-                        <p>Advanced technical skills certification.</p>
+
+                        <p>
+                            Synfig technical training
+                            completion certificate.
+                        </p>
+
                     </div>
+
                 </div>
 
-                <div class="certificate-item">
-                    <div class="certificate-image-container">
-                        <img src="image/CISCO_Introduction_to_Cybersecurity.jpg" alt="Introduction to Cybersecurity Certificate" loading="lazy">
-                    </div>
-                    <div class="certificate-content">
-                        <p>Introduction to Cybersecurity by CISCO.</p>
-                    </div>
-                </div>
 
+
+                <!-- NXT Wave -->
                 <div class="certificate-item">
+
                     <div class="certificate-image-container">
-                        <img src="image/NXT_Wave.png" alt="Additional Certificate" loading="lazy">
+
+                        <img
+                            src="image/NXT_Wave.png"
+                            alt="NXT Wave AI Webinar Certificate"
+                            loading="lazy">
+
                     </div>
+
+
                     <div class="certificate-content">
-                        <p>Additional certification of AI Webinar  .</p>
+
+                        <p>
+                            Participation certificate for
+                            AI-related webinar/training.
+                        </p>
+
                     </div>
+
                 </div>
 
             </div>
+
         </section>
 
-        <!-- CONTACT -->
+
+
+        <!-- =====================================================
+             CONTACT
+        ====================================================== -->
         <section id="contact" class="section">
-            <h2 class="h2"><i class="fas fa-envelope"></i> CONTACT FOR PROJECTS</h2>
+
+            <h2 class="h2">
+
+                <i class="fas fa-envelope"></i>
+
+                LET'S BUILD SOMETHING
+
+            </h2>
+
 
             <p id="contact-details"
-                style="margin-bottom: 2rem; font-weight: bold; color: rgba(255, 255, 255, 0.9); font-size: 1rem;">
-                If you are looking to build a professional Website or Mobile Application for your Business,
-                Institute, Hospital, Shop, or Personal Brand — I create modern, fast, and secure projects with
-                full backend integration and long-term support.
-                Let's bring your idea to reality!
+                style="
+                    margin-bottom: 2rem;
+                    font-weight: bold;
+                    color: rgba(255, 255, 255, 0.9);
+                    font-size: 1rem;
+                ">
+
+                Have an application idea, software project,
+                collaboration opportunity or development requirement?
+
+                Feel free to get in touch.
+
+                I'm interested in building useful and practical
+                digital solutions.
+
             </p>
 
+
             <div class="contact-cards">
-                <div class="contact-card" id="whatsapp"
+
+
+                <!-- WhatsApp -->
+                <div
+                    class="contact-card"
+                    id="whatsapp"
                     onclick="window.open('https://wa.me/917856876825?text=Hi%20Nityanand%2C%20I%20want%20to%20discuss%20a%20project.', '_blank')"
-                    aria-label="Contact via WhatsApp">
+                    aria-label="Contact Nityanand via WhatsApp">
+
                     <div class="contact-icon">
+
                         <i class="fab fa-whatsapp"></i>
+
                     </div>
+
+
                     <div class="contact-info">
-                        <h4>WhatsApp Support</h4>
-                        <p>+91 7856876825</p>
+
+                        <h4>
+                            WhatsApp
+                        </h4>
+
+                        <p>
+                            +91 7856876825
+                        </p>
+
                     </div>
+
                 </div>
 
-                <div class="contact-card" id="email"
+
+
+                <!-- Email -->
+                <div
+                    class="contact-card"
+                    id="email"
                     onclick="window.location.href='mailto:03nkumar01@gmail.com?subject=Project%20Inquiry&body=Hello%20Nityanand,%0D%0A%0D%0AI%20want%20to%20discuss%20a%20project.%20Please%20respond%20when%20free.'"
-                    aria-label="Contact via Email">
+                    aria-label="Contact Nityanand via Email">
+
                     <div class="contact-icon">
+
                         <i class="fas fa-envelope"></i>
+
                     </div>
+
+
                     <div class="contact-info">
-                        <h4>Email Support</h4>
-                        <p>03nkumar01@gmail.com</p>
+
+                        <h4>
+                            Email
+                        </h4>
+
+                        <p>
+                            03nkumar01@gmail.com
+                        </p>
+
                     </div>
+
                 </div>
+
             </div>
+
+
+            <!-- Resume -->
+            <button
+                class="resume-section-btn"
+                id="sectionResumeBtn"
+                aria-label="View My Resume">
+
+                <i class="fas fa-file-alt"></i>
+
+                VIEW MY RESUME
+
+            </button>
+
         </section>
 
-        <!-- Resume Section Button -->
-        <button class="resume-section-btn" id="sectionResumeBtn" aria-label="View My Resume">
-            <i class="fas fa-file-alt"></i> VIEW MY RESUME
-        </button>
     </main>
 
-    <!-- FOOTER -->
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
     <footer class="footer">
+
         <div class="footer-content">
+
+
             <div class="footer-text">
-                PASSIONATE ABOUT CREATING BEAUTIFUL AND FUNCTIONAL WEBSITES AND APPS FOR YOUR GROWTH.<br>
-                ALWAYS LEARNING NEW SKILLS AND IMPROVING EVERY DAY.
+
+                BUILDING PRACTICAL SOFTWARE.
+                LEARNING CONTINUOUSLY.
+                CREATING WITH PURPOSE.
+
+                <br><br>
+
+                ANDROID APPLICATIONS
+                • JAVA
+                • SOFTWARE DEVELOPMENT
+
             </div>
+
 
             <div style="text-align: center; margin: 1.5rem 0;">
-                © 2025 ALL RIGHTS RESERVED | MADE WITH <i class="fas fa-heart"
-                    style="color: var(--accent); margin: 0 5px;"></i> BY<br>
-                <span class="name-highlight" style="display: inline-block; margin-top: 0.8rem;">Nityanand Kumar</span>
+
+                © 2026 ALL RIGHTS RESERVED
+
+                <br>
+
+                MADE WITH
+                <i
+                    class="fas fa-heart"
+                    style="
+                        color: var(--accent);
+                        margin: 0 5px;
+                    ">
+                </i>
+
+                BY
+
+                <br>
+
+                <span
+                    class="name-highlight"
+                    style="
+                        display: inline-block;
+                        margin-top: 0.8rem;
+                    ">
+
+                    Nityanand Kumar
+
+                </span>
+
             </div>
+
 
             <div
-                style="height: 2px; background: linear-gradient(90deg, transparent, var(--primary), transparent); margin: 1.5rem 0;">
+                style="
+                    height: 2px;
+                    background: linear-gradient(
+                        90deg,
+                        transparent,
+                        var(--primary),
+                        transparent
+                    );
+                    margin: 1.5rem 0;
+                ">
             </div>
 
+
+            <!-- Social Links -->
             <div class="social-links">
-                <a href="https://www.linkedin.com/in/nkumar03" target="_blank" class="social-link"
-                    aria-label="Linkedin Profile">
+
+
+                <!-- LinkedIn -->
+                <a
+                    href="https://www.linkedin.com/in/nkumar03"
+                    target="_blank"
+                    class="social-link"
+                    aria-label="LinkedIn Profile">
+
                     <i class="fab fa-linkedin"></i>
+
                 </a>
 
-                <a href="https://www.github.com/nityanand2003" target="_blank" class="social-link"
-                    aria-label="GitHub">
+
+                <!-- GitHub -->
+                <a
+                    href="https://github.com/nityanand2003"
+                    target="_blank"
+                    class="social-link"
+                    aria-label="GitHub Profile">
+
                     <i class="fab fa-github"></i>
+
                 </a>
 
-                <a href="https://www.hackerrank.com/nityanand2003" target="_blank" class="social-link" aria-label="Instagram Profile"
-                    aria-label="Hackerrank">
+
+                <!-- HackerRank -->
+                <a
+                    href="https://www.hackerrank.com/nityanand2003"
+                    target="_blank"
+                    class="social-link"
+                    aria-label="HackerRank Profile">
+
                     <i class="fa-brands fa-hackerrank"></i>
-                </a>
 
-                <!-- <a href="https://www.leetcode.com/nityanand2003" target="_blank" class="social-link" aria-label="Instagram Profile"
-                    aria-label="LeetCode">
-                    <i class="fa-brands fa-leetcode"></i>
-                </a> -->
-
-                <!-- <a href="https://www.leetcode.com/nityanand2003" target="_blank" class="social-link" aria-label="Instagram Profile">
-                    <i class="cib-leetcode"></i>
-                </a> -->
-
-                <a href="https://www.leetcode.com/nityanand2003" target="_blank" class="social-link">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/leetcode/leetcode-original.svg"
-                        alt="LeetCode" width="24">
                 </a>
 
 
-                <a href="https://www.sololearn.com/en/profile/28037597" target="_blank" class="social-link"
+                <!-- LeetCode -->
+                <a
+                    href="https://www.leetcode.com/nityanand2003"
+                    target="_blank"
+                    class="social-link"
+                    aria-label="LeetCode Profile">
+
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/leetcode/leetcode-original.svg"
+                        alt="LeetCode"
+                        width="24">
+
+                </a>
+
+
+                <!-- SoloLearn -->
+                <a
+                    href="https://www.sololearn.com/en/profile/28037597"
+                    target="_blank"
+                    class="social-link"
                     aria-label="SoloLearn Profile">
+
                     <i class="fas fa-user"></i>
+
                 </a>
 
-                <a href="https://www.instagram.com/nkumar.03/" target="_blank" class="social-link"
+
+                <!-- Instagram -->
+                <a
+                    href="https://www.instagram.com/nkumar.03/"
+                    target="_blank"
+                    class="social-link"
                     aria-label="Instagram Profile">
+
                     <i class="fab fa-instagram"></i>
+
                 </a>
 
-                <a href="https://www.facebook.com/03nkumar" target="_blank" class="social-link"
+
+                <!-- Facebook -->
+                <a
+                    href="https://www.facebook.com/03nkumar"
+                    target="_blank"
+                    class="social-link"
                     aria-label="Facebook Profile">
+
                     <i class="fab fa-facebook"></i>
+
                 </a>
 
-                <a href="https://www.youtube.com/@Nkumarshorts" target="_blank" class="social-link"
+
+                <!-- YouTube -->
+                <a
+                    href="https://www.youtube.com/@Nkumarshorts"
+                    target="_blank"
+                    class="social-link"
                     aria-label="YouTube Channel">
+
                     <i class="fab fa-youtube"></i>
+
                 </a>
+
             </div>
+
 
             <div class="copyright">
-                FOLLOW ME ON SOCIAL MEDIA FOR UPDATES AND PROJECTS | WEB & APP DEVELOPMENT SPECIALIST
+
+                ANDROID APP DEVELOPMENT
+                &nbsp;•&nbsp;
+                JAVA
+                &nbsp;•&nbsp;
+                SOFTWARE DEVELOPMENT
+                &nbsp;•&nbsp;
+                REAL-WORLD PROJECTS
+
             </div>
+
         </div>
+
     </footer>
 
+
+    <!-- =========================================================
+         JAVASCRIPT
+    ========================================================== -->
     <script src="js/script.js"></script>
-    
+
 </body>
+
 </html>
